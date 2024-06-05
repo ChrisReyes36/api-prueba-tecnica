@@ -1,0 +1,13 @@
+1 - composer update
+
+2 - cp .env.example .env
+
+3 - php artisan key:generate
+
+4 - php artisan migrate:refresh --seed
+
+5 - php artisan passport:install
+
+6 - Copiar o client_id e client_secret generados en el paso anterior para o archivo .env hasta el final
+
+7 - php artisan serve
